@@ -3,39 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="practice.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <title>Stats preview card component</title>
 
 </head>
 <body>
-  <header>
-    <div class="BG">
+  <div class="container">
+    
+    <header class="header">
 
-      <section class="secondBG">
-        <div class="color_overlay"></div>
-        <img class="imageBG" src="image-header-mobile.jpg" alt=""/>
-        <h1 class="top_header">Get <span class="purple">insights</span> that help your business grow.</h1>
+    <img class="header__img-mobile" src="image-header-mobile.jpg" alt="workplace in a conference room working">
+    
+    <img class="header__img-desktop" src="image-header-desktop.jpg" alt="workplace in a conference room working">
+    </header>
+  
 
-        <p class="home_parra">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-          experience, and overall efficiency.</p>
+    <div class="text-container">
+    <main class="title--info">
+      <h1 class="title">
+        Get <span class="purple">insights</span> that help your business grow.
+      </h1>
+      <p class="info">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+      </p>
+    </main>
 
-        <span>
-          <span class="bottom_text"><h1 class="bottom_header">10k+</h1>
-          <p class="bottom_parra">companies</p></span>        
-       
-          <span class="bottom_text"><h1 class="bottom_header">314</h1>
-          <p class="bottom_parra">templates</p></span>
-       
-          <span class="bottom_text"><h1 class="bottom_header">12m+</h1>
-          <p class="bottom_parra">queries</p></span>
-        </span>
-      </section>
-      
+    <aside class="aside--features">
+      <span class="feature__info">
+        <h2 class="feature__numbers">
+          10K+
+        </h2>
+        <p class="feature__subtitle">
+          companies
+        </p>
+      </span>
+      <span class="feature__info">
+        <h2 class="feature__numbers">
+          314
+        </h2>
+        <p class="feature__subtitle">
+          templates
+        </p>
+      </span>
+      <span class="feature__info">
+        <h2 class="feature__numbers">
+          12M+
+        </h2>
+        <p class="feature__subtitle">
+          queries
+        </p>
+      </span>
+
+    </aside>
+
+
     </div>
-</header>
   </div>
+  
 </body>
 </html>
