@@ -91,6 +91,7 @@ body {
   .header__img-mobile {
     display: inline-block;
     width: 100%;
+    height: 100%;
   }
   .header__img-desktop {
     display: none;
